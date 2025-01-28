@@ -16,5 +16,13 @@ puedes basarte en este link o mas adelante te muestro como hacerlo. https://clou
 
 **4.** Manual para creacion de webhooks Meraki. https://developer.cisco.com/meraki/webhooks/introduction/#assign-alerts
 
+![notif](https://github.com/user-attachments/assets/ae1cc227-e762-44ba-8e57-c9c11cbdcd35)
+
+
+
+Resultado de notificacion.
+
+
+
 
 _aun sigo documentando se paciente @jazzkell_
