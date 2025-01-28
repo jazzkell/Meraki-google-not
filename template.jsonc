@@ -1,0 +1,49 @@
+//eliminar comentarios al copiar el codigo
+//si se dejan los comentaios se generará un error al guardar el template
+{
+    "text":"Notificacion Meraki",//Mensaje inicial
+    "cards": [
+      {
+        "header": {
+          "title":"{{deviceName}}" , //encabezado de tarjeta Muestra en nombre de dispositivo
+          "imageUrl": "https://n907.meraki.com/favicon.ico" //favicon Meraki para cuadro de notificacion
+        },
+        "sections": [
+          {
+            "widgets": [
+              {
+                "textParagraph": {
+                  "text": "{{networkName}}" //Muestra en Nombre de la red
+                }
+              },
+              {
+                  "textParagraph":{
+                    "text":"{{deviceModel}}" //Muestra el Modelo del dispositivo Meraki
+                  }
+                },
+              {
+                "textParagraph": {
+                  "text": "{{alertLevel}}" // Muestra el nivel de alerta (critica, informacion, error)
+                }
+              },
+              {
+                "textParagraph": {
+                  "text": "{{alertType}}" // Muestra el tipo de alerta (revisar lista de alertas en doc Meraki)
+                    }
+              },
+              {
+                "textParagraph": {
+                  "text": "{{occurredAt}}" //Fecha de generacion de alerta (la fecha se emite en formato UTC-0)
+                }
+              },
+             {
+                "textParagraph": {
+                  "text": "<a href={{deviceUrl}}>Ver en Dashboard</a>" // hace referencia a la URL de dispositivo(onclick-redirect)
+                } 
+                }
+            ]
+          }
+        ]
+      }
+    ]
+  }
