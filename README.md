@@ -1,4 +1,4 @@
-# Notificaciones de Meraki en Google Worksplace-Chat
+# Notificaciones de Meraki en Google Workspace-Chat
 Template para envío de notificaciones de Meraki a algun chat de google.
 Comparto el siguiente Template para el envío de notificaciones mediante Webhooks desde el Dashboard de Meraki a un grupo de chat de google Worksplace.
 
